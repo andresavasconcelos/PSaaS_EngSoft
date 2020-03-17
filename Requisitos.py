@@ -1,20 +1,24 @@
 import time
 
 class Requisitos:
-    # def _requisitos(self, requisitos):
-    #     requisitos = [1, 2, 3, 4, 5, 6]
+    requisitos = []
 
-    #     for requisito in requisitos:
-    #         print(requisito)
+    def _init_(self, requisitos):
+        self.requisitos = [1, 2, 3, 4, 5, 6]
 
-    #     return requisitos
+    def Faserequisitos(self, tipo_requisitos):
+        for requisito in self.requisitos:
+            print('requisito:' + requisito)
 
-    def printaFase(self):
-        requisitos = [1, 2, 3, 4, 5, 6]
-              
+        return
+
+    def printaFase(self, faseRequistos):
     ##Processe de engenharia de requisitos
         print("Iniciando os requisitos, aguarde")
-        time.sleep(1.5) 
+        time.sleep(1.5)
+
+    def teste(self):
+        print("Teste suscedido")
 
     ##Estudo de viabilidade da requisição
         print("Incio do estudo de viabilidade, aguarde")
@@ -32,25 +36,19 @@ class Requisitos:
         print("Desenvolvimento de prototipo, aguarde")
         time.sleep(2)
 
-        print("Recebendo todos os requisitos")
+        print("Recebendo os requisitos" + self.requisitos)
         time.sleep(2)
 
         #Os requisitos
-        print('Entendendo os requisitos ...')
+        print('Entendendo os requisitos, aguarde')
         time.sleep(2)
 
-        print('Requisitos funcionais: '+ str(requisitos[0]))
-        print('Requisitos não funcionais: '+ str(requisitos[1]))
-        print('Requisitos de domínio: '+ str(requisitos[2]))
-        print('Requisitos de dados: '+ str(requisitos[3]))
-        print('Requisitos regra de negócio: '+ str(requisitos[4]))
-
-        pass
-
-    
+        print('Requisitos funcionais: '+ {self.requisitos[1]})
 
 
-       
+
+
+
 
 
 
@@ -59,11 +57,3 @@ class Requisitos:
 
         ##criar uma array com todas as posições dos Requisitos
         ##printar cada fase dos requisitos
-
-       
-
-
-
-
-
-

@@ -1,10 +1,12 @@
 from estagio.Requisitos import Requisitos
 
+class Main:
+    print("Ola")
+    req = Requisitos()
+    req.printaFase()
 
 
 #fase requisitos
-
-Requisitos.Faserequisitos(faseRequistos)
 
 #fase de projeto
 
