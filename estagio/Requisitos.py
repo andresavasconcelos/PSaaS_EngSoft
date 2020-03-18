@@ -10,11 +10,11 @@ class Requisitos:
     #     return requisitos
 
     def printaFase(self):
-        requisitos = [1, 2, 3, 4, 5, 6]
-              
+        requisitos = ["fazer1", "fazer2", "fazer3", "fazer4", "fazer5", "fazer6"]
+
         ##Processe de engenharia de requisitos
         print("Iniciando os requisitos, aguarde")
-        time.sleep(1.5) 
+        time.sleep(1.5)
 
         ##Estudo de viabilidade da requisição
         print("Incio do estudo de viabilidade, aguarde")
@@ -45,16 +45,16 @@ class Requisitos:
         print('Requisitos de dados: '+ str(requisitos[3]))
         print('Requisitos regra de negócio: '+ str(requisitos[4]))
 
-        #Fase de prioridades        
+        #Fase de prioridades
         print('Prioridades definidas')
         time.sleep(2)
 
         #Fase de Especificação
         print('Definindo a especificação do Software ...')
         print('Definindo as restrições do Softwsre ...')
-        time.sleep(3) 
-        print('Especificação definida!') 
-        
+        time.sleep(3)
+        print('Especificação definida!')
+
         #Fase de modelagem
         print('Definindo modelagem do Software ...')
         print('Definindo modelo UML ...')
@@ -70,25 +70,5 @@ class Requisitos:
         time.sleep(3)
         print('Validações efetuada com sucesso')
 
+        return requisitos
         pass
-
-    
-
-
-       
-
-
-
-
-
-
-        ##criar uma array com todas as posições dos Requisitos
-        ##printar cada fase dos requisitos
-
-       
-
-
-
-
-
-
