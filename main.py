@@ -29,7 +29,7 @@ class Main:
     projeto = pro.criacaoProjeto(requisitos)
     funcionalidades = cod.codificacaoFuncionalidades(projeto)
     chamaTeste(projeto,funcionalidades)
-    impletacao = imp.faseImplementacao(1)
+    implementacao = imp.faseImplementacao(1)
 
 
 #fase requisitos
