@@ -1,9 +1,11 @@
 from estagio.Requisitos import Requisitos
+from estagio.Projetos import Projetos
 
 class Main:
     print("Ola")
     req = Requisitos()
-    req.printaFase()
+    pro = Projetos()
+    pro.criacaoProjeto(req.printaFase())
 
 
 #fase requisitos
