@@ -10,12 +10,12 @@ class Projetos:
             tuplaProjeto = ("Mondelagem requisito "+ str(i) + ": " + requisitos[i-1], requisitos[i-1])
             projeto.append(tuplaProjeto)
             print("Modelando o requisito "+ str(i) + ": " + requisitos[i-1])
-            time.sleep(1.5)
+            time.sleep(1)
 
         #fase de validacao de requisitos
         print('Verificando a validade computacional...')
         print('verificando a consistencia ...')
-        time.sleep(3)
+        time.sleep(2.5)
         print('Validações do projeto efetuadas com sucesso')
 
         return projeto

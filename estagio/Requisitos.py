@@ -14,30 +14,30 @@ class Requisitos:
 
         ##Processe de engenharia de requisitos
         print("Iniciando os requisitos, aguarde")
-        time.sleep(1.5)
+        time.sleep(1)
 
         ##Estudo de viabilidade da requisição
         print("Incio do estudo de viabilidade, aguarde")
-        time.sleep(1.5)
+        time.sleep(1)
 
         print("Confirmação da viabilidade do softer requerido, aguarde")
-        time.sleep(1.5)
+        time.sleep(1)
         #Elicitação e análise de requisitos
         print("Discussão com usuário, aguarde")
-        time.sleep(1.5)
+        time.sleep(1)
 
         print("Compreendendo o sistema solicitado, aguarde")
-        time.sleep(1.5)
+        time.sleep(1)
 
         print("Desenvolvimento de prototipo, aguarde")
-        time.sleep(2)
+        time.sleep(1.5)
 
         print("Recebendo todos os requisitos")
-        time.sleep(2)
+        time.sleep(1.5)
 
         #Os requisitos
         print('Entendendo os requisitos ...')
-        time.sleep(2)
+        time.sleep(1.5)
 
         print('Requisitos funcionais: '+ str(requisitos[0]))
         print('Requisitos não funcionais: '+ str(requisitos[1]))
@@ -47,19 +47,19 @@ class Requisitos:
 
         #Fase de prioridades
         print('Prioridades definidas')
-        time.sleep(2)
+        time.sleep(1.5)
 
         #Fase de Especificação
         print('Definindo a especificação do Software ...')
         print('Definindo as restrições do Softwsre ...')
-        time.sleep(3)
+        time.sleep(2.5)
         print('Especificação definida!')
 
         #Fase de modelagem
         print('Definindo modelagem do Software ...')
         print('Definindo modelo UML ...')
         print('Encadeando cenário ...')
-        time.sleep(3)
+        time.sleep(2.5)
         print('Modelagem definida!')
 
         #fase de validacao de requisitos
@@ -67,7 +67,7 @@ class Requisitos:
         print('verificando a consistencia ...')
         print('verificando o realismo ...')
         print('Validações em processamento, aguarde ...')
-        time.sleep(3)
+        time.sleep(2.5)
         print('Validações efetuada com sucesso')
 
         return requisitos
