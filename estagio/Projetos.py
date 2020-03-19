@@ -13,9 +13,11 @@ class Projetos:
             time.sleep(1)
 
         #fase de validacao de requisitos
-        print('Verificando a validade computacional...')
-        print('verificando a consistencia ...')
+        print('\nVerificando a validade computacional...')
+        time.sleep(1)
+        print('Verificando a consistencia...')
         time.sleep(2.5)
-        print('Validações do projeto efetuadas com sucesso')
+        print('Validacao do projeto efetuada com sucesso!\n')
+        time.sleep(1)
 
         return projeto

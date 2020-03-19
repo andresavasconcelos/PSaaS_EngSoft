@@ -11,9 +11,11 @@ class Codificacao:
             print("Projetando funcionalidade "+ str(i) + ": " + projeto[i-1][1] + " a partir da: " + projeto[i-1][0])
             time.sleep(1)
 
-        print('verificando a execucao das funcionalidades ...')
-        print('apresentando funcionalidades ao usuario...')
+        print('\nVerificando a execucao das funcionalidades ...')
+        time.sleep(1)
+        print('Apresentando funcionalidades ao usuario...')
         time.sleep(2.5)
-        print('Validações da codificacao efetuadas com sucesso')
+        print('Validações da codificacao efetuadas com sucesso!\n')
+        time.sleep(1)
 
         return funcionalidades
