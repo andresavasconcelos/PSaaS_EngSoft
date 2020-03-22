@@ -97,9 +97,9 @@ class Requisitos:
         #print("verificando o realismo ...")
         #print('Validações em processamento, aguarde ...\n')
         #time.sleep(2.5)
-        print('Validações com o cliente, aguarde ...\n')
+        print('Validacao com o cliente, aguarde ...\n')
         time.sleep(2.5)
-        print('Validações efetuada com sucesso\n')
+        print('Validacoes efetuadas com sucesso\n')
         time.sleep(1)
 
         return requisitos
