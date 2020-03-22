@@ -21,6 +21,7 @@ class Implementacao:
             print('Agendando o processo de implementação ...')
             time.sleep(2)
             print("Processo agendado!")
+            time.sleep(1)
 
             print('Configurando o software de desenvolvimento para produção ...')
             time.sleep(2)
@@ -48,3 +49,4 @@ class Implementacao:
             print('Deploy foi bem sucedido!')
             time.sleep(1)
             print('Fim da fase de implementação')
+            input("Digite algo para encerrar!")

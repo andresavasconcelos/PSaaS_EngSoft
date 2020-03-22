@@ -7,8 +7,8 @@ class Codificacao:
         funcionalidades = []
 
         if(veioDoTeste == False):
-            ambienteDesenvolvimento = input("Digite a(as) linguagem(ens) de programacao/plataformas escolhida(as) para o desenvolvimento do sistema:")
-            print("Iniciando codificacao do sistema nas plataformas: " + ambienteDesenvolvimento + "...")
+            ambienteDesenvolvimento = input("Digite a(as) linguagem(ens) de programacao/plataformas escolhida(as) para o desenvolvimento do sistema:\n")
+            print("Iniciando codificacao do sistema nas linguagens/plataformas: " + ambienteDesenvolvimento + "...")
             time.sleep(2)
 
         for i in range(1,len(projeto)+1):
