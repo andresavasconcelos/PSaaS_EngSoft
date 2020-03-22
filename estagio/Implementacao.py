@@ -26,6 +26,10 @@ class Implementacao:
             time.sleep(2)
             print('Software configurado!')
             time.sleep(1)
+            print('Realizando ultima validacao com o cliente...')
+            time.sleep(2)
+            print('Cliente aprovou o software!')
+            time.sleep(1)
 
             escolha = input("Deseja colocar o software em producao? 'Sim' ou 'Nao'\n")
             if(escolha == "Sim" or escolha == "sim"):
