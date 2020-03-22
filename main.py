@@ -11,19 +11,20 @@ class Main:
     req = Requisitos()
     pro = Projetos()
     cod = Codificacao()
+    tes = Testes()
     imp = Implementacao()
 
-    def chamaTeste(projeto, funcionalidades):
-        tes = Testes()
+    def chamaTeste(projeto, funcionalidades, cod, tes):
         if(tes.teste(funcionalidades) == True):
             print("\n")
             #Chama implementacao
             time.sleep(1)
+            return True
         else:
             print("Retornando para codificacao\n")
             funcionalidades = cod.codificacaoFuncionalidades(projeto)
-            self.chamaTeste(projeto, funcionalidades)
             time.sleep(1)
+            return False
 
     #fase requisitos
 
@@ -63,6 +64,8 @@ class Main:
             implementacao = imp.faseImplementacao(1)
         raise SystemExit
 
-    chamaTeste(projeto,funcionalidades)
+    teste = False
+    while(teste == False):
+        teste = chamaTeste(projeto,funcionalidades,cod,tes)
     #fase de implementacao
     implementacao = imp.faseImplementacao(1)
