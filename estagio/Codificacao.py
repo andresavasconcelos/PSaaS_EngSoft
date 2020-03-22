@@ -8,7 +8,7 @@ class Codificacao:
 
         for i in range(1,len(projeto)+1):
             funcionalidades.append("Funcionalidade "+ str(i) + ": " + projeto[i-1][1])
-            print("Projetando funcionalidade "+ str(i) + ": " + projeto[i-1][1] + " a partir da: " + projeto[i-1][0])
+            print("Codificando funcionalidade "+ str(i) + ": " + projeto[i-1][1] + " a partir da: " + projeto[i-1][0])
             time.sleep(1)
 
         print('\nVerificando a execucao das funcionalidades ...')
