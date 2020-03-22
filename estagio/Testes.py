@@ -1,13 +1,18 @@
 import time
+import random
 
 class Testes:
 
     casosTeste = ["Primeiro Teste","Segundo Teste","Terceiro Teste","Quarto Teste","Teste Final"]
 
     def executaFuncionalidade(self, funcionalidade, entrada):
-        print("Execucao realizada com sucesso para : " + entrada)
-        time.sleep(0.3)
-        return True
+        if(random.random() <= 0.015):
+            print("Execucao falhou para : " + entrada)
+            return False
+        else:
+            print("Execucao realizada com sucesso para : " + entrada)
+            time.sleep(0.3)
+            return True
 
     def testaFuncionalidade(self, funcionalidade, casosTesteFuncionalidade):
         for i in casosTesteFuncionalidade:

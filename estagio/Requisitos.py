@@ -23,7 +23,7 @@ class Requisitos:
         print("Confirmação da viabilidade do software requerido...")
         time.sleep(1)
         #Elicitação e análise de requisitos
-        print("Discussão com usuário...")
+        print("Discussão com cliente...")
         time.sleep(1)
 
         print("Compreendendo o sistema solicitado...")
@@ -35,7 +35,7 @@ class Requisitos:
             time.sleep(1.5)
             print("Prototipo desenvolvido com sucesso!\n")
             time.sleep(1)
-            print("Recebendo resposta do usuario!\n")
+            print("Recebendo resposta do cliente!\n")
             time.sleep(1)
 
         print("Definicao dos requisitos funcionais...\n")
@@ -95,7 +95,9 @@ class Requisitos:
         #print('verificando a consistencia ...')
         #time.sleep(1)
         #print("verificando o realismo ...")
-        print('Validações em processamento, aguarde ...\n')
+        #print('Validações em processamento, aguarde ...\n')
+        #time.sleep(2.5)
+        print('Validações com o cliente, aguarde ...\n')
         time.sleep(2.5)
         print('Validações efetuada com sucesso\n')
         time.sleep(1)

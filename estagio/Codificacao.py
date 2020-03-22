@@ -13,7 +13,7 @@ class Codificacao:
 
         print('\nVerificando a execucao das funcionalidades ...')
         time.sleep(1)
-        print('Apresentando funcionalidades ao usuario...')
+        print('Apresentando funcionalidades ao cliente...')
         time.sleep(2.5)
         print('Validações da codificacao efetuadas com sucesso!\n')
         time.sleep(1)
