@@ -13,6 +13,15 @@ class Projetos:
             time.sleep(1)
 
         #fase de validacao de requisitos
+        #Fase de modelagem
+        print('Definindo modelagem do Software ...')
+        time.sleep(1)
+        print('Definindo modelo UML ...')
+        time.sleep(1)
+        print('Encadeando cenário ...\n')
+        time.sleep(2.5)
+        print('Modelagem do sistema definida!\n')
+        time.sleep(1)
         print('\nVerificando a validade computacional...')
         time.sleep(1)
         print('Verificando a consistencia...')

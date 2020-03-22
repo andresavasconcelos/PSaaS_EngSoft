@@ -35,15 +35,17 @@ class Requisitos:
             time.sleep(1.5)
             print("Prototipo desenvolvido com sucesso!\n")
             time.sleep(1)
+            print("Recebendo resposta do usuario!\n")
+            time.sleep(1)
 
-        print("Definicao dos requisitos...\n")
+        print("Definicao dos requisitos funcionais...\n")
         requisitos = []
 
         operacao = "Inicial"
         i = 0
-        while(operacao != "Fim" and operacao != "fim"):
-            operacao = input("Digite um requisito ou 'Fim' para proseguir com esses requisitos\n")
-            if(operacao != "Fim" and operacao != "fim"):
+        while(operacao != "Requisitos Determinados" and operacao != "requisitos determinados"):
+            operacao = input("Digite um requisito ou 'Requisitos Determinados' para proseguir com esses requisitos funcionais\n")
+            if(operacao != "Requisitos Determinados" and operacao != "requisitos determinados"):
                 requisitos.append(operacao)
             i = i + 1
 
@@ -51,8 +53,8 @@ class Requisitos:
         time.sleep(1.5)
 
         #Os requisitos
-        print('Entendendo os requisitos ...\n')
-        time.sleep(1.5)
+        #print('Entendendo os requisitos ...\n')
+        #time.sleep(1.5)
 
         print('Requisitos funcionais: ')
         for i in requisitos:
@@ -87,21 +89,11 @@ class Requisitos:
         time.sleep(2.5)
         print('Especificação definida!\n')
 
-        #Fase de modelagem
-        print('Definindo modelagem do Software ...')
-        time.sleep(1)
-        print('Definindo modelo UML ...')
-        time.sleep(1)
-        print('Encadeando cenário ...\n')
-        time.sleep(2.5)
-        print('Modelagem definida!\n')
-        time.sleep(1)
-
         #fase de validacao de requisitos
-        print('Verificando a validade do software ...')
-        time.sleep(1)
-        print('verificando a consistencia ...')
-        time.sleep(1)
+        #print('Verificando a validade do software ...')
+        #time.sleep(1)
+        #print('verificando a consistencia ...')
+        #time.sleep(1)
         #print("verificando o realismo ...")
         print('Validações em processamento, aguarde ...\n')
         time.sleep(2.5)
