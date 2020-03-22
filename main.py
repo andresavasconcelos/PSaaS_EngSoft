@@ -22,7 +22,7 @@ class Main:
             return True
         else:
             print("Retornando para codificacao\n")
-            funcionalidades = cod.codificacaoFuncionalidades(projeto)
+            funcionalidades = cod.codificacaoFuncionalidades(projeto, True)
             time.sleep(1)
             return False
 
@@ -48,7 +48,7 @@ class Main:
     else:
         print("Abandonando processo de criacao de software!")
         raise SystemExit
-    funcionalidades = cod.codificacaoFuncionalidades(projeto)
+    funcionalidades = cod.codificacaoFuncionalidades(projeto, False)
 
     #fase de testes
     escolha = input("Codificacao concluida, prosseguir para teste? 'Sim' ou 'Nao'\n")
