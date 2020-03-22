@@ -63,7 +63,7 @@ class Requisitos:
         time.sleep(1)
         print("\n")
 
-        print("Recebendo e processando requisitos nao funcional...")
+        print("Recebendo e processando requisitos nao funcionais...")
         time.sleep(1)
         print("Recebendo e processando requisitos de dominio...")
         time.sleep(1)
@@ -97,9 +97,9 @@ class Requisitos:
         #print("verificando o realismo ...")
         #print('Validações em processamento, aguarde ...\n')
         #time.sleep(2.5)
-        print('Validacao com o cliente, aguarde ...\n')
+        print('Validações com o cliente, aguarde ...\n')
         time.sleep(2.5)
-        print('Validacoes efetuadas com sucesso\n')
+        print('Validações efetuada com sucesso\n')
         time.sleep(1)
 
         return requisitos
